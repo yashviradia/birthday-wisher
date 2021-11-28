@@ -11,7 +11,6 @@ MY_EMAIL = os.environ.get("FROM_ADDR")
 PASSWORD = os.environ.get("PASSWORD")
 
 
-# 2. Check if today matches a birthday in the birthdays.csv
 data = pandas.read_csv("birthdays.csv")
 
 now = dt.datetime.now()
@@ -32,7 +31,6 @@ if is_birthday:
         birthday_letter_content = birthday_letter.read()
         new_birthday_letter = birthday_letter_content.replace(PLACEHOLDER, birthday_name)
 
-    # 4. Send the letter generated in step 3 to that person's email address.
     TO_ADDRS = birthday_email
 
     connection = smtplib.SMTP("smtp.gmail.com", port=587)
