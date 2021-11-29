@@ -20,7 +20,7 @@ Never forget to wish birthday!
 ![Automated Birthday Wisher Image](./images/Automated_Birthday_Wisher_image.png?raw=true "Wishing Birthday to myself!")
 
 ### Links
-- Github Repository: [Automated Birthday Wisher](https://yashviradia.github.io/personal_website_1/)
+- Github Repository: [Automated Birthday Wisher](https://github.com/yashviradia/birthday-wisher)
 
 ## My process
 
