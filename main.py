@@ -43,3 +43,4 @@ if is_birthday:
         )
     connection.close()
 
+
